@@ -16,7 +16,7 @@
 logging:
     level:
         ROOT: INFO
-        io.github.jhipster.online: INFO
+        gov.ingar.GIPMO.online: INFO
         io.github.jhipster: INFO
 
 spring:

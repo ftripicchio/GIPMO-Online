@@ -17,7 +17,7 @@ logging:
     level:
         ROOT: DEBUG
         io.github.jhipster: DEBUG
-        io.github.jhipster.online: DEBUG
+        gov.ingar.GIPMO.online: DEBUG
 
 spring:
     profiles:
