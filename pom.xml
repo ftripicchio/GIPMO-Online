@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>gov.ingar.GIPMO.online</groupId>
-    <artifactId>jhonline</artifactId>
-    <version>1.0.3</version>
+    <artifactId>GIPMO-Online</artifactId>
+    <version>1.0.0</version>
     <packaging>war</packaging>
-    <name>Jhonline</name>
+    <name>GIPMO-Online</name>
 
     <repositories>
         <!-- TODO Remove snapshot repositories after final Spring Boot 2 release -->

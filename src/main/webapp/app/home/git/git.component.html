@@ -1,10 +1,10 @@
 <h2><span class="fa fa-wrench"></span>&nbsp;<span>Git configuration</span></h2>
 
 <p>
-    If you give access to your GitHub account to JHipster Online, it will:
+    If you give access to your GitHub account to GIPMO Online, it will:
 </p>
 <ul>
-    <li>Create JHipster applications on your account, using <a routerLink="/generate-application">the online application
+    <li>Create GIPMO optimization applications on your account, using <a routerLink="/generate-application">the online application
         generator</a>.
     </li>
     <li>Read basic user data (your username and organizations) that are necessary for generating the project</li>
@@ -25,7 +25,7 @@
 <ng-container *ngIf="isGithubAvailable">
     <p class="text-center" *ngIf="!isGithubConfigured">
         <a class="btn btn-primary"
-           href="https://github.com/login/oauth/authorize?scope=user,public_repo&client_id={{githubClientId}}" role="button">
+           href="https://github.com/login/oauth/authorize?response_type=code&response_mode=form_post&scope=user,public_repo&client_id={{githubClientId}}" role="button">
             <span *ngIf="!isAuthorizingGithub">
                 <i class="fab fa-github"></i>
                 Authorize GitHub
@@ -39,7 +39,7 @@
     <p class="text-center" *ngIf="isGithubConfigured">
         <a class="btn btn-warning"
            href="https://github.com/login/oauth/authorize?scope=user,public_repo&client_id={{githubClientId}}" role="button">
-            <i class="fab fa-github"></i> JHipster
+            <i class="fab fa-github"></i> GIPMO Online
             is already authorized, click here to re-synchronize your Github account
         </a>
     </p>
@@ -62,7 +62,7 @@
     <p class="text-center" *ngIf="isGitlabConfigured">
         <a class="btn btn-warning"
            href="{{gitlabHost}}oauth/authorize?client_id={{gitlabClientId}}&redirect_uri={{gitlabRedirectUri}}&response_type=code" role="button">
-            <i class="fab fa-gitlab"></i> JHipster
+            <i class="fab fa-gitlab"></i> GIPMO Online
             is already authorized, click here to re-synchronize your Gitlab account
         </a>
     </p>

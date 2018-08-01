@@ -137,10 +137,10 @@ jhipster:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
-#application:
-#    github:
-#        clientId: XXX
-#        clientSecret: XXX
+application:
+    github:
+        clientId: 73097b6d9f94c1bbc540
+        clientSecret: dcbb7d78f8ca9971d9181bc8b8d70671d349c662
 #    gitlab:
 #        clientId: XXX
 #        clientSecret: XXX
